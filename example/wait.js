@@ -1,6 +1,7 @@
 var requestControl = require('..');
 
-var req = requestControl(5, 1);
-for(var i = 0; i<30; ++i) req(function(){
-    console.log("ok");
+var req = requestControl(10, 1);
+var cnt = 0;
+for(var i = 0; i<100; ++i) req(function(){
+    console.log(++cnt);
 });
