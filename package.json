@@ -1,0 +1,28 @@
+{
+  "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
+  "name": "request-control",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "request-limitter": "0.0.1"
+  },
+  "readmeFilename": "README.md",
+  "description": "request control",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/you21979/node-request-control.git"
+  },
+  "keywords": [
+    "over request",
+    "request wait"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/you21979/node-request-control/issues"
+  }
+}
